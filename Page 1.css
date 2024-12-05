@@ -1,0 +1,55 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #343a40;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de l'entête */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles du profil */
+.profile-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-header h1 {
+    font-size: 3.1rem;
+    margin: 0;
+}
+
+/* Styles des icônes de réseaux sociaux */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #343a40;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Styles du pied de page */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
